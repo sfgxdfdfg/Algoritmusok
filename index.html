@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Algoritmusok</title>
+  </head>
+  <body class="bg-dark">
+    <header class="sticky-top bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobilnezet">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="mobilnezet" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#algoleiras">Tulajdonságai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#vezerlesiszerkezete">Vezérlési szerkezete</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ealgazasok">Elágazások</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abrak">Ábrázolási módok</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="d-flex flex-column align-items-center text-white">
+      <h1>Mi az algoritmus?</h1>
+      <p>
+        Az algoritmus egy probléma megoldásásra szolgáló véges utasítás
+        sorozatból álló utasítás sorozat.
+      </p>
+    </div>
+
+    <div id="algoleiras" class="conatiner">
+      <div id="tulajdonsagai" class="card mb-5 text-center">
+        <div class="card-header fs-4">Tulajdonságai</div>
+        <div class="card-body text-start">
+          <ul>
+            <li>Véges utasításokból áll.</li>
+            <li>Csak pontosan hajtható végre.</li>
+            <li>Determinisztikus(Van egy bemenet és annak is kell jönni).</li>
+            <li>
+              Általános(Nem konkrét esetre hanem egy feladat típusra ad
+              megoldást).
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="vezerlesiszerkezete" class="card mb-5 text-center">
+        <div class="card-header fs-4">Vezérlési szerkezete</div>
+        <div class="card-body text-start">
+          <ul>
+            <li>
+              Szekvencia
+              <ul>
+                <li>Az utasítások sorban történő végrehajtása.</li>
+              </ul>
+            </li>
+            <li>
+              Szelekció
+              <ul>
+                <li>Valami csak bizonyos esetben történik meg.</li>
+              </ul>
+            </li>
+            <li>
+              Cikusság
+              <ul>
+                <li>Ismétlődés</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="ealgazasok" class="card mb-5 text-center">
+        <div class="card-header fs-4">Elágazások</div>
+        <div class="card-body text-start">
+          <ul>
+            <li>
+              Egyirányú
+              <ul>
+                <li>Ismétlődés</li>
+              </ul>
+            </li>
+            <li>
+              Kétirányú
+              <ul>
+                <li>Ismétlődés</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="abrak" class="container d-flex justify-content-center">
+      <div class="row row-cols-1 row-cols-md-3 gap-5 justify-content-center">
+        <div class="card" style="width: 18rem">
+          <img src="./img/abra.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/abra.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/abra.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light shadow-sm text-center">
+      <p>Készítette: Kelemen Márk</p>
+    </footer>
+  </body>
+</html>

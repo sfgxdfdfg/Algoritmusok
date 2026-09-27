@@ -1,0 +1,33 @@
+li {
+    font-size: medium;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#algoleiras {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    height: 30px;
+}
+
+#abrak {
+    margin-bottom: 40px;
+}
+
+img {
+    padding: 10px;
+}
+
+.card {
+    background-color: grey;
+}
