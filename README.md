@@ -1,1 +1,1 @@
-#Algoritmusok
+# Algoritmusok
