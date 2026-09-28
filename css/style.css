@@ -1,5 +1,21 @@
+body {
+    background-image: url("../img/hatter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+a {
+    text-decoration: none;
+    color: #A5D6A7;
+}
+
+h1 {
+    color: #1B5E20;
+}
+
 li {
-    font-size: medium;
+    font-size: large;
 }
 
 ul {
@@ -29,5 +45,30 @@ img {
 }
 
 .card {
-    background-color: grey;
+    background-color: rgb(165, 214, 167, 0.6);
+}
+
+header {
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+footer {
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: #A5D6A7;
+    font-size: larger;
+}
+
+#algotulaj {
+    color: #1B5E20;
+    font-size: larger;
+    font-weight: 500;
+}
+
+@media (max-width: 540px) {
+    #algoleiras {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
