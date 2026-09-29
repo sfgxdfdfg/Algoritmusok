@@ -66,13 +66,21 @@ footer {
     font-weight: 500;
 }
 
+.card-title {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.card-text {
+    text-align: center;
+}
+
 @media (max-width: 540px) {
     #algoleiras {
         margin-left: 40px;
         margin-right: 40px;
     }
-}
-
-#mobilnezet {
-    position: fixed;
+    #algotulaj {
+        margin: 30px;
+    }
 }
