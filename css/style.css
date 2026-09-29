@@ -72,3 +72,7 @@ footer {
         margin-right: 40px;
     }
 }
+
+#mobilnezet {
+    position: fixed;
+}
